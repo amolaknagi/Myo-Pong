@@ -13,11 +13,11 @@
 		D3612C361B9BCB550070796A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3612C351B9BCB550070796A /* Images.xcassets */; };
 		D3612C391B9BCB550070796A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3612C371B9BCB550070796A /* LaunchScreen.xib */; };
 		D3612C451B9BCB550070796A /* Myo_PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3612C441B9BCB550070796A /* Myo_PongTests.m */; };
-		D3612C4F1B9BCB750070796A /* MyoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3612C4E1B9BCB750070796A /* MyoKit.framework */; };
 		D3612C521B9BCB860070796A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3612C511B9BCB860070796A /* GameViewController.m */; };
 		D3612C551B9BCC300070796A /* PongBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3612C541B9BCC300070796A /* PongBoardView.m */; };
 		D3612C5C1B9BDBBE0070796A /* PressStart2P.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3612C5B1B9BDBAD0070796A /* PressStart2P.ttf */; };
 		D36A4AD51B9BE3F300C5C1A6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36A4AD41B9BE3F300C5C1A6 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D36A4AD71B9C2BFE00C5C1A6 /* MyoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36A4AD61B9C2BFE00C5C1A6 /* MyoKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,15 +42,15 @@
 		D3612C3E1B9BCB550070796A /* Myo PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Myo PongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3612C431B9BCB550070796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3612C441B9BCB550070796A /* Myo_PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Myo_PongTests.m; sourceTree = "<group>"; };
-		D3612C4E1B9BCB750070796A /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyoKit.framework; path = "../Myo-iOS-SDK-0.5.2/MyoKit.framework"; sourceTree = "<group>"; };
 		D3612C501B9BCB860070796A /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
 		D3612C511B9BCB860070796A /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
 		D3612C531B9BCC300070796A /* PongBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PongBoardView.h; sourceTree = "<group>"; };
 		D3612C541B9BCC300070796A /* PongBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PongBoardView.m; sourceTree = "<group>"; };
 		D3612C571B9BCD390070796A /* MyoPongConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyoPongConstants.h; sourceTree = "<group>"; };
-		D3612C5B1B9BDBAD0070796A /* PressStart2P.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = PressStart2P.ttf; path = "../../codeman38_press-start-2p/PressStart2P.ttf"; sourceTree = "<group>"; };
+		D3612C5B1B9BDBAD0070796A /* PressStart2P.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = PressStart2P.ttf; path = ../PressStart2P.ttf; sourceTree = "<group>"; };
 		D36A4AD31B9BE3F300C5C1A6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		D36A4AD41B9BE3F300C5C1A6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D36A4AD61B9C2BFE00C5C1A6 /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyoKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3612C4F1B9BCB750070796A /* MyoKit.framework in Frameworks */,
+				D36A4AD71B9C2BFE00C5C1A6 /* MyoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		D3612C1C1B9BCB550070796A = {
 			isa = PBXGroup;
 			children = (
-				D3612C4E1B9BCB750070796A /* MyoKit.framework */,
+				D36A4AD61B9C2BFE00C5C1A6 /* MyoKit.framework */,
 				D3612C271B9BCB550070796A /* Myo Pong */,
 				D3612C411B9BCB550070796A /* Myo PongTests */,
 				D3612C261B9BCB550070796A /* Products */,
@@ -373,6 +373,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/cmu/Desktop/Myo-iOS-SDK-0.5.2",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Myo Pong/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -388,6 +389,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/cmu/Desktop/Myo-iOS-SDK-0.5.2",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Myo Pong/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

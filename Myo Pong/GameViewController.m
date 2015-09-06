@@ -58,10 +58,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
 
     [self declareConstants];
-    
+
     [self addUIElements];
     
     [self initializeMyo];
@@ -78,6 +77,11 @@
 - (void)declareConstants;
 {
     self.playerScoreCount = 0;
+    self.platformThickness = 10;
+    self.platformWidth = 80;
+    self.platformFromEdge = 40;
+    self.midlineSpacing = 10;
+    self.ballLength = 10;
 }
 
 
@@ -202,11 +206,9 @@
     
     
     [self.view addSubview:self.ball];
+    [self.view bringSubviewToFront:self.ball];
     
-    self.ballTimer = [NSTimer  scheduledTimerWithTimeInterval:0.002 target:self selector:@selector(moveBall) userInfo:nil repeats:YES];
-    //[self.ballTimer fire];
-    //[[NSRunLoop currentRunLoop] addTimer:self.ballTimer forMode:NSRunLoopCommonModes];
-    
+    self.ballTimer = [NSTimer scheduledTimerWithTimeInterval:0.002 target:self selector:@selector(moveBall) userInfo:nil repeats:YES];
     
     self.up = NO;
     self.right = NO;
@@ -376,7 +378,9 @@
     CGFloat width = self.ballLength;
     CGFloat height = self.ballLength;
     
-    
+    NSLog(@"Ball x : %f", self.ball.frame.origin.x);
+    NSLog(@"Ball y : %f", self.ball.frame.origin.y);
+
     
     if (self.up)
     {
