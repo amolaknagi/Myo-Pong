@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3612C2B1B9BCB550070796A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3612C2A1B9BCB550070796A /* main.m */; };
+		D3612C2E1B9BCB550070796A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3612C2D1B9BCB550070796A /* AppDelegate.m */; };
+		D3612C341B9BCB550070796A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3612C321B9BCB550070796A /* Main.storyboard */; };
+		D3612C361B9BCB550070796A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3612C351B9BCB550070796A /* Images.xcassets */; };
+		D3612C391B9BCB550070796A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3612C371B9BCB550070796A /* LaunchScreen.xib */; };
+		D3612C451B9BCB550070796A /* Myo_PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3612C441B9BCB550070796A /* Myo_PongTests.m */; };
+		D3612C4F1B9BCB750070796A /* MyoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3612C4E1B9BCB750070796A /* MyoKit.framework */; };
+		D3612C521B9BCB860070796A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3612C511B9BCB860070796A /* GameViewController.m */; };
+		D3612C551B9BCC300070796A /* PongBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3612C541B9BCC300070796A /* PongBoardView.m */; };
+		D3612C5C1B9BDBBE0070796A /* PressStart2P.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3612C5B1B9BDBAD0070796A /* PressStart2P.ttf */; };
+		D36A4AD51B9BE3F300C5C1A6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36A4AD41B9BE3F300C5C1A6 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3612C3F1B9BCB550070796A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3612C1D1B9BCB550070796A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3612C241B9BCB550070796A;
+			remoteInfo = "Myo Pong";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3612C251B9BCB550070796A /* Myo Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Myo Pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3612C291B9BCB550070796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3612C2A1B9BCB550070796A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3612C2C1B9BCB550070796A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3612C2D1B9BCB550070796A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3612C331B9BCB550070796A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3612C351B9BCB550070796A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3612C381B9BCB550070796A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D3612C3E1B9BCB550070796A /* Myo PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Myo PongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3612C431B9BCB550070796A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3612C441B9BCB550070796A /* Myo_PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Myo_PongTests.m; sourceTree = "<group>"; };
+		D3612C4E1B9BCB750070796A /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyoKit.framework; path = "../Myo-iOS-SDK-0.5.2/MyoKit.framework"; sourceTree = "<group>"; };
+		D3612C501B9BCB860070796A /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		D3612C511B9BCB860070796A /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
+		D3612C531B9BCC300070796A /* PongBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PongBoardView.h; sourceTree = "<group>"; };
+		D3612C541B9BCC300070796A /* PongBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PongBoardView.m; sourceTree = "<group>"; };
+		D3612C571B9BCD390070796A /* MyoPongConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyoPongConstants.h; sourceTree = "<group>"; };
+		D3612C5B1B9BDBAD0070796A /* PressStart2P.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = PressStart2P.ttf; path = "../../codeman38_press-start-2p/PressStart2P.ttf"; sourceTree = "<group>"; };
+		D36A4AD31B9BE3F300C5C1A6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D36A4AD41B9BE3F300C5C1A6 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3612C221B9BCB550070796A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3612C4F1B9BCB750070796A /* MyoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3612C3B1B9BCB550070796A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3612C1C1B9BCB550070796A = {
+			isa = PBXGroup;
+			children = (
+				D3612C4E1B9BCB750070796A /* MyoKit.framework */,
+				D3612C271B9BCB550070796A /* Myo Pong */,
+				D3612C411B9BCB550070796A /* Myo PongTests */,
+				D3612C261B9BCB550070796A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3612C261B9BCB550070796A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3612C251B9BCB550070796A /* Myo Pong.app */,
+				D3612C3E1B9BCB550070796A /* Myo PongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3612C271B9BCB550070796A /* Myo Pong */ = {
+			isa = PBXGroup;
+			children = (
+				D36A4AD31B9BE3F300C5C1A6 /* HomeViewController.h */,
+				D36A4AD41B9BE3F300C5C1A6 /* HomeViewController.m */,
+				D3612C501B9BCB860070796A /* GameViewController.h */,
+				D3612C511B9BCB860070796A /* GameViewController.m */,
+				D3612C531B9BCC300070796A /* PongBoardView.h */,
+				D3612C541B9BCC300070796A /* PongBoardView.m */,
+				D3612C321B9BCB550070796A /* Main.storyboard */,
+				D3612C2C1B9BCB550070796A /* AppDelegate.h */,
+				D3612C2D1B9BCB550070796A /* AppDelegate.m */,
+				D3612C351B9BCB550070796A /* Images.xcassets */,
+				D3612C371B9BCB550070796A /* LaunchScreen.xib */,
+				D3612C571B9BCD390070796A /* MyoPongConstants.h */,
+				D3612C281B9BCB550070796A /* Supporting Files */,
+			);
+			path = "Myo Pong";
+			sourceTree = "<group>";
+		};
+		D3612C281B9BCB550070796A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3612C5B1B9BDBAD0070796A /* PressStart2P.ttf */,
+				D3612C291B9BCB550070796A /* Info.plist */,
+				D3612C2A1B9BCB550070796A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3612C411B9BCB550070796A /* Myo PongTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3612C441B9BCB550070796A /* Myo_PongTests.m */,
+				D3612C421B9BCB550070796A /* Supporting Files */,
+			);
+			path = "Myo PongTests";
+			sourceTree = "<group>";
+		};
+		D3612C421B9BCB550070796A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3612C431B9BCB550070796A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3612C241B9BCB550070796A /* Myo Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3612C481B9BCB550070796A /* Build configuration list for PBXNativeTarget "Myo Pong" */;
+			buildPhases = (
+				D3612C211B9BCB550070796A /* Sources */,
+				D3612C221B9BCB550070796A /* Frameworks */,
+				D3612C231B9BCB550070796A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Myo Pong";
+			productName = "Myo Pong";
+			productReference = D3612C251B9BCB550070796A /* Myo Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3612C3D1B9BCB550070796A /* Myo PongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3612C4B1B9BCB550070796A /* Build configuration list for PBXNativeTarget "Myo PongTests" */;
+			buildPhases = (
+				D3612C3A1B9BCB550070796A /* Sources */,
+				D3612C3B1B9BCB550070796A /* Frameworks */,
+				D3612C3C1B9BCB550070796A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3612C401B9BCB550070796A /* PBXTargetDependency */,
+			);
+			name = "Myo PongTests";
+			productName = "Myo PongTests";
+			productReference = D3612C3E1B9BCB550070796A /* Myo PongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3612C1D1B9BCB550070796A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Amolak Nagi";
+				TargetAttributes = {
+					D3612C241B9BCB550070796A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D3612C3D1B9BCB550070796A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D3612C241B9BCB550070796A;
+					};
+				};
+			};
+			buildConfigurationList = D3612C201B9BCB550070796A /* Build configuration list for PBXProject "Myo Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3612C1C1B9BCB550070796A;
+			productRefGroup = D3612C261B9BCB550070796A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3612C241B9BCB550070796A /* Myo Pong */,
+				D3612C3D1B9BCB550070796A /* Myo PongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3612C231B9BCB550070796A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3612C341B9BCB550070796A /* Main.storyboard in Resources */,
+				D3612C391B9BCB550070796A /* LaunchScreen.xib in Resources */,
+				D3612C5C1B9BDBBE0070796A /* PressStart2P.ttf in Resources */,
+				D3612C361B9BCB550070796A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3612C3C1B9BCB550070796A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3612C211B9BCB550070796A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3612C521B9BCB860070796A /* GameViewController.m in Sources */,
+				D3612C2E1B9BCB550070796A /* AppDelegate.m in Sources */,
+				D3612C2B1B9BCB550070796A /* main.m in Sources */,
+				D36A4AD51B9BE3F300C5C1A6 /* HomeViewController.m in Sources */,
+				D3612C551B9BCC300070796A /* PongBoardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3612C3A1B9BCB550070796A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3612C451B9BCB550070796A /* Myo_PongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3612C401B9BCB550070796A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3612C241B9BCB550070796A /* Myo Pong */;
+			targetProxy = D3612C3F1B9BCB550070796A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3612C321B9BCB550070796A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3612C331B9BCB550070796A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3612C371B9BCB550070796A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3612C381B9BCB550070796A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3612C461B9BCB550070796A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3612C471B9BCB550070796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3612C491B9BCB550070796A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/cmu/Desktop/Myo-iOS-SDK-0.5.2",
+				);
+				INFOPLIST_FILE = "Myo Pong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3612C4A1B9BCB550070796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/cmu/Desktop/Myo-iOS-SDK-0.5.2",
+				);
+				INFOPLIST_FILE = "Myo Pong/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3612C4C1B9BCB550070796A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Myo PongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myo Pong.app/Myo Pong";
+			};
+			name = Debug;
+		};
+		D3612C4D1B9BCB550070796A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Myo PongTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Myo Pong.app/Myo Pong";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3612C201B9BCB550070796A /* Build configuration list for PBXProject "Myo Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3612C461B9BCB550070796A /* Debug */,
+				D3612C471B9BCB550070796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3612C481B9BCB550070796A /* Build configuration list for PBXNativeTarget "Myo Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3612C491B9BCB550070796A /* Debug */,
+				D3612C4A1B9BCB550070796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3612C4B1B9BCB550070796A /* Build configuration list for PBXNativeTarget "Myo PongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3612C4C1B9BCB550070796A /* Debug */,
+				D3612C4D1B9BCB550070796A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3612C1D1B9BCB550070796A /* Project object */;
+}
